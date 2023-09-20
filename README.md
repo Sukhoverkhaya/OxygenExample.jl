@@ -29,7 +29,7 @@ include("../src/OxygenExample.jl")
 ```
 
 ### http://127.0.0.1:8080/docs result:
-![Alt text](images/image-2.png)
+![Alt text](images/image-2.png.png)
 
 ### Tests result:
 ```

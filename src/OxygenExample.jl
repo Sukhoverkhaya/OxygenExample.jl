@@ -40,7 +40,7 @@ const NAME = Ref{String}("")
 openApi_version = "3.0"
 
 info = Dict{String, Any}(
-    "title" => "Box51 API",
+    "title" => "Example API",
     "version" => openApi_version
 )
 
