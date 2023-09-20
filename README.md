@@ -13,10 +13,12 @@ OxygenExample.start_server()
 ![Alt text](images/image.png)
 
 ### Tests result:
+```
 @testset "Without including module file" begin
     @test HTTP.post("http://127.0.0.1:8080/my_name_is/MyNameIs") |> x -> x.status == 200
     @test HTTP.get("http://127.0.0.1:8080/name") |> x -> x.status == 200
 end
+```
 
 ![Alt text](images/image-1.png)
 
@@ -30,10 +32,13 @@ include("../src/OxygenExample.jl")
 ![Alt text](images/image-2.png)
 
 ### Tests result:
-@testset "Without including module file" begin
+```
+@testset "After including module file" begin
     @test HTTP.post("http://127.0.0.1:8080/my_name_is/MyNameIs") |> x -> x.status == 200
     @test HTTP.get("http://127.0.0.1:8080/name") |> x -> x.status == 200
 end
+```
+
 ![Alt text](images/image-3.png)
 
 So, I have some ideas how to solve this problem, but would like to know the right way.
