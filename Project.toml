@@ -3,6 +3,11 @@ uuid = "50685915-2c1a-44bd-af5f-5ba0986a2433"
 authors = ["Katerina Sukhoverkhaya <katerina.sukhoverkhaya@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Oxygen = "df9a0d86-3283-4920-82dc-4555fc0d1d8b"
+SwaggerMarkdown = "1b6eb727-ad4b-44eb-9669-b9596a6e760f"
+
 [compat]
 julia = "1"
 
